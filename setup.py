@@ -32,7 +32,7 @@ version = runpy.run_path(str(root / "keras_lmu" / "version.py"))["version"]
 install_req = [
     "packaging>=20.9",
     "scipy>=1.0.0",
-    "tensorflow>=2.4.4",
+    "tensorflow_macos>=2.3.4",
 ]
 docs_req = [
     "matplotlib>=3.0.2,<3.4.3",
